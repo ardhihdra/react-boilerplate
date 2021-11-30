@@ -1,0 +1,36 @@
+:root {
+    --blue: rgb(4, 115, 192);
+    --blue-soft: rgb(84, 141, 182);
+    --blue-secondary: rgb(54, 169, 251);
+    --blue-tertiary: rgb(149, 207, 249);
+    --blue-dark: rgb(50, 73, 90);
+    --white: #ffffff; 
+    --space: white;
+    --space-dark: #282c34;
+    --secondary-space: #3a3f4e;
+    --violet: rgb(156, 59, 248);
+    --orange: rgb(249, 162, 0);
+    --green: rgb(5, 78, 6);
+    --green-secondary: rgb(32, 190, 35);
+    --yellow: rgb(255, 255, 84);
+    --red: red;
+    --grey: rgba(100, 100, 111, 0.2);
+    --grey-border: rgb(195, 195, 195);
+    --whitesmoke: whitesmoke;
+
+    /* font */
+    --white-font: white;
+    --dark-font: rgb(145, 145, 145);
+    --primary-font: var(--blue-soft);
+
+    --main-background: var(--blue-soft);
+    --secondary-background: var(--blue-dark);
+}
+
+.b-blue {
+  background-color: var(--blue);
+}
+
+.b-orange {
+  background-color: var(--orange);
+}
